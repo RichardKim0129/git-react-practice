@@ -21,6 +21,7 @@ const Todo = (props) => {
         </button>
       </div>
       {/* Academind 2021 1:20:13 should watch this again */}
+
       { modalIsOpen && <Modal onCancel={closeBackdrop} onConfirm={closeBackdrop} /> }
       { modalIsOpen && <Backdrop onDisappear={closeBackdrop} /> }
     </div>
